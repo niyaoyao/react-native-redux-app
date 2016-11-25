@@ -1,0 +1,9 @@
+export var darkColor = '#333';
+export var grayColor = '#666';
+export var lightGrayColor = '#999';
+export var extremeLightGrayColor = '#eee';
+export var redColor = '#ff4617';
+export var greenColor = '#47c370';
+export var blueColor = '#427fed';
+export var grayBackgroundColor = '#f0f0f0';
+export var whiteColor = '#fff';

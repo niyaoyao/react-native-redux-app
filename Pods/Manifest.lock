@@ -1,0 +1,39 @@
+PODS:
+  - React/Core (0.33.1):
+    - React/CSSLayout
+  - React/CSSLayout (0.33.1)
+  - React/RCTActionSheet (0.33.1):
+    - React/Core
+  - React/RCTGeolocation (0.33.1):
+    - React/Core
+  - React/RCTImage (0.33.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.33.1):
+    - React/Core
+  - React/RCTNetwork (0.33.1):
+    - React/Core
+  - React/RCTText (0.33.1):
+    - React/Core
+  - React/RCTWebSocket (0.33.1):
+    - React/Core
+
+DEPENDENCIES:
+  - React/Core (from `./ny_react/node_modules/react-native`)
+  - React/RCTActionSheet (from `./ny_react/node_modules/react-native`)
+  - React/RCTGeolocation (from `./ny_react/node_modules/react-native`)
+  - React/RCTImage (from `./ny_react/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./ny_react/node_modules/react-native`)
+  - React/RCTText (from `./ny_react/node_modules/react-native`)
+  - React/RCTWebSocket (from `./ny_react/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./ny_react/node_modules/react-native
+
+SPEC CHECKSUMS:
+  React: d705ee366ac969fbb2b773ab3b5fecf946a1f3f0
+
+PODFILE CHECKSUM: 737f86550009547cc7ba1511da0f84df8fa48e54
+
+COCOAPODS: 1.0.1

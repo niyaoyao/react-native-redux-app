@@ -1,1 +1,3 @@
-# react-native-redux-app
+# React Native App With Redux
+
+This a simplest 

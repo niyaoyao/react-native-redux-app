@@ -1,0 +1,37 @@
+{
+  "name": "react-native-redux-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "node node_modules/eslint/bin/eslint.js index.ios.js index.android.js react/",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "lint": {
+      "patterns": [
+        "react",
+        "index.ios.js",
+        "index.android.js"
+      ],
+      "extensions": "js",
+      "ignore": ".node_modules",
+      "quiet": false
+    }
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-native": "^0.33.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.2",
+    "eslint-plugin-react-native": "^2.0.0",
+    "npm-watch": "^0.1.6"
+  }
+}
