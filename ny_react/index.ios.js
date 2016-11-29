@@ -49,8 +49,8 @@ class Counter extends React.Component {
       marginTop: value,
     };
     return (
-      <View>
-        <View style={indexStyle.container} >
+      <View style={styles.container}>
+        <View style={styles.row} >
           <CommonButton
             width={50}
             height={50}
@@ -63,6 +63,13 @@ class Counter extends React.Component {
             title={'-'}
             buttonPressed={this.minusCount.bind(this)}
           />
+        </View>
+
+        <View>
+          <Text>total:{this.state.count}</Text>
+        </View>
+
+        <View style={styles.row}>
           <CommonButton
             width={100}
             height={50}
@@ -76,9 +83,7 @@ class Counter extends React.Component {
             buttonPressed={this.minusActionDispatch.bind(this)}
           />
         </View>
-        <View>
-          <Text>total:{this.state.count}</Text>
-        </View>
+
         <View style={blockStyle}>
         </View>
       </View>
@@ -137,12 +142,15 @@ const App = connect(
 )(Counter)
 
 // StyleSheet Variable
-var indexStyle = StyleSheet.create({
+var styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop: 20,
+  },
+  row: {
     flexDirection: 'row',
-    alignItems: 'flex-start',
-  }
+    height: 50,
+  },
 })
 
 AppRegistry.registerComponent('RNApp', () => RNApp);
